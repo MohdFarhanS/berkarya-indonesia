@@ -1,18 +1,18 @@
-# Berkarya Indonesia
+# Berkarya untuk Indonesia | Mahreen Indonesia
 
-Berkarya Indonesia adalah website landing page bertema gerakan anak muda untuk mengembangkan ide, membuat karya, dan memanfaatkan teknologi bagi Indonesia. Website ini dibuat dengan React dan Vite, dengan tampilan responsif bernuansa merah-putih serta beberapa interaksi sederhana seperti detail program dan form partisipasi.
+Berkarya untuk Indonesia adalah website landing page bertema gerakan anak muda untuk mengembangkan ide, membuat karya, dan memanfaatkan teknologi bagi Indonesia. Website ini dibuat dengan React dan Vite, dengan tampilan responsif bernuansa gelap yang disesuaikan dengan karakter Mahreen Indonesia sebagai ekosistem kreatif, digital, dan sosial.
 
 ## Fitur
 
-- Hero section dengan ajakan utama untuk melihat program atau mulai berkarya.
+- Hero section dengan nuansa Mahreen Indonesia dan ajakan utama untuk melihat program atau mulai berkarya.
 - Navigasi anchor ke bagian Beranda, Program, Langkah, dan Aksi.
 - Daftar program interaktif:
-  - Ruang Kreativitas
-  - Teknologi untuk Negeri
-  - Kolaborasi Anak Muda
+  - Creative Lab
+  - Digital Solution
+  - Social Impact
 - Tombol "Lihat Detail" untuk membuka informasi tambahan tiap program.
 - Section langkah berkarya dari ide hingga dampak.
-- CTA "Gabung Sekarang" yang membuka modal partisipasi.
+- CTA "Mulai Berkarya" yang membuka modal partisipasi.
 - Form modal dengan validasi sederhana untuk nama, email, dan minat program.
 - Penyimpanan data pendaftaran sementara di browser menggunakan `localStorage`.
 - Layout responsif untuk desktop, tablet, dan mobile.

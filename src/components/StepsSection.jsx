@@ -1,21 +1,21 @@
 const steps = [
   {
     number: "01",
-    title: "Temukan Ide",
+    title: "Temukan Insight",
     description:
-      "Mulai dari masalah sederhana di sekitar, lalu ubah menjadi gagasan yang bisa dikembangkan.",
+      "Mulai dari keresahan, kebutuhan, atau peluang sederhana yang bisa diubah menjadi gagasan bernilai.",
   },
   {
     number: "02",
-    title: "Kembangkan Karya",
+    title: "Rancang Solusi",
     description:
-      "Gunakan kreativitas dan teknologi untuk membuat karya yang memiliki nilai manfaat.",
+      "Kembangkan konsep dengan pendekatan kreatif, digital, dan komunikasi yang jelas.",
   },
   {
     number: "03",
-    title: "Bagikan Dampak",
+    title: "Publikasikan Dampak",
     description:
-      "Publikasikan karya agar dapat menginspirasi dan memberikan manfaat bagi lebih banyak orang.",
+      "Bagikan karya agar dapat dilihat, digunakan, dan menginspirasi lebih banyak orang.",
   },
 ];
 
@@ -24,10 +24,10 @@ function StepsSection() {
     <section className="steps-section" id="langkah">
       <div className="section-heading">
         <p className="section-label">Langkah Berkarya</p>
-        <h2>Dari Ide Kecil Menjadi Dampak Besar</h2>
+        <h2>Dari Insight Kecil Menjadi Karya Berdampak</h2>
         <p>
-          Setiap karya tidak harus dimulai dari hal besar. Yang terpenting
-          adalah berani memulai, mengembangkan, dan membagikannya.
+          Alur sederhana ini membantu peserta bergerak dari ide mentah menuju
+          karya yang lebih siap dipresentasikan dan dikembangkan.
         </p>
       </div>
 

@@ -1,32 +1,32 @@
 export const programs = [
-    {
-      id: 1,
-      icon: "💡",
-      title: "Ruang Kreativitas",
-      description:
-        "Mendorong generasi muda untuk berani menuangkan ide, membuat karya, dan menyelesaikan masalah di sekitar mereka.",
-      detail:
-        "Program ini berfokus pada pengembangan ide kreatif anak muda, mulai dari menemukan masalah, membuat konsep solusi, hingga mempresentasikan gagasan secara sederhana.",
-      points: ["Pengembangan ide", "Latihan berpikir kreatif", "Presentasi gagasan"],
-    },
-    {
-      id: 2,
-      icon: "💻",
-      title: "Teknologi untuk Negeri",
-      description:
-        "Mengajak anak muda memanfaatkan teknologi sebagai media belajar, berkarya, dan memberikan dampak positif.",
-      detail:
-        "Program ini memperkenalkan pemanfaatan teknologi digital untuk membuat karya sederhana seperti website, desain digital, aplikasi, atau konten edukatif.",
-      points: ["Karya digital", "Pemanfaatan teknologi", "Solusi berbasis digital"],
-    },
-    {
-      id: 3,
-      icon: "🤝",
-      title: "Kolaborasi Anak Muda",
-      description:
-        "Membangun semangat kerja sama agar setiap ide dapat berkembang menjadi karya yang bermanfaat untuk Indonesia.",
-      detail:
-        "Program ini mengajak peserta untuk bekerja sama, berdiskusi, dan membangun karya bersama agar ide yang dibuat memiliki dampak lebih luas.",
-      points: ["Kerja sama tim", "Diskusi ide", "Kolaborasi karya"],
-    },
-  ];
+  {
+    id: 1,
+    icon: "CL",
+    title: "Creative Lab",
+    description:
+      "Ruang eksplorasi ide, visual, dan branding agar anak muda berani membuat karya dengan identitas yang kuat.",
+    detail:
+      "Creative Lab terinspirasi dari semangat Mahreen Studio: membantu peserta menemukan ide, merancang konsep visual, dan menyusun cerita karya yang mudah dipahami.",
+    points: ["Eksplorasi ide kreatif", "Konsep visual dan branding", "Presentasi karya"],
+  },
+  {
+    id: 2,
+    icon: "DS",
+    title: "Digital Solution",
+    description:
+      "Mengajak peserta memanfaatkan teknologi sebagai alat untuk belajar, membangun solusi, dan memperluas dampak.",
+    detail:
+      "Digital Solution mengarah pada pembuatan karya sederhana seperti landing page, konten digital, prototype aplikasi, atau solusi berbasis web yang relevan dengan kebutuhan sekitar.",
+    points: ["Website dan prototype", "Konten digital", "Solusi berbasis teknologi"],
+  },
+  {
+    id: 3,
+    icon: "SI",
+    title: "Social Impact",
+    description:
+      "Mendorong karya yang tidak hanya menarik secara visual, tetapi juga membawa manfaat bagi masyarakat.",
+    detail:
+      "Social Impact membawa nilai Peduli Mahreen dan Mahreen CSR ke dalam proses berkarya: peserta diajak melihat masalah sosial, membangun empati, dan membuat kontribusi nyata.",
+    points: ["Riset masalah sosial", "Kolaborasi komunitas", "Karya dengan manfaat nyata"],
+  },
+];

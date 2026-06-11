@@ -8,11 +8,11 @@ function ProgramSection() {
     <section className="program-section" id="program">
       <div className="section-heading">
         <p className="section-label">Tentang Program</p>
-        <h2>Mengubah Ide Menjadi Karya Nyata</h2>
+        <h2>Ruang Tumbuh untuk Kreator Muda Indonesia</h2>
         <p>
-          Program ini dirancang untuk menumbuhkan kreativitas, kemampuan
-          berpikir, komunikasi, dan potensi anak muda Indonesia melalui
-          pemanfaatan teknologi.
+          Program ini mengadaptasi semangat Mahreen Indonesia sebagai ruang
+          pengembangan kreatif, digital, dan sosial agar peserta dapat belajar
+          berpikir, berkomunikasi, berkolaborasi, dan membuat karya nyata.
         </p>
       </div>
 
@@ -44,7 +44,8 @@ function ProgramSection() {
           <div>
             <p className="section-label">Detail Program</p>
             <h3>
-              {selectedProgram.icon} {selectedProgram.title}
+              <span className="detail-icon">{selectedProgram.icon}</span>
+              {selectedProgram.title}
             </h3>
             <p>{selectedProgram.detail}</p>
 
