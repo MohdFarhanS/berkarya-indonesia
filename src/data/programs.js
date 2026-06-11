@@ -4,10 +4,10 @@ export const programs = [
     icon: "CL",
     title: "Creative Lab",
     description:
-      "Ruang eksplorasi ide, visual, dan branding agar anak muda berani membuat karya dengan identitas yang kuat.",
+      "Ruang eksplorasi ide dan visual agar anak muda berani menuangkan gagasan menjadi karya yang kuat.",
     detail:
-      "Creative Lab terinspirasi dari semangat Mahreen Studio: membantu peserta menemukan ide, merancang konsep visual, dan menyusun cerita karya yang mudah dipahami.",
-    points: ["Eksplorasi ide kreatif", "Konsep visual dan branding", "Presentasi karya"],
+      "Creative Lab membantu peserta menemukan masalah di sekitar, mengembangkan ide kreatif, merancang konsep visual, dan menyusun cerita karya yang mudah dipahami.",
+    points: ["Eksplorasi ide kreatif", "Konsep visual karya", "Presentasi gagasan"],
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ export const programs = [
     description:
       "Mendorong karya yang tidak hanya menarik secara visual, tetapi juga membawa manfaat bagi masyarakat.",
     detail:
-      "Social Impact membawa nilai Peduli Mahreen dan Mahreen CSR ke dalam proses berkarya: peserta diajak melihat masalah sosial, membangun empati, dan membuat kontribusi nyata.",
+      "Social Impact mengajak peserta melihat masalah sosial, membangun empati, dan mengarahkan karya kreatif atau digital menjadi kontribusi yang bermanfaat.",
     points: ["Riset masalah sosial", "Kolaborasi komunitas", "Karya dengan manfaat nyata"],
   },
 ];

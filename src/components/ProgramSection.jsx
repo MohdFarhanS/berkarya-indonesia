@@ -10,9 +10,9 @@ function ProgramSection() {
         <p className="section-label">Tentang Program</p>
         <h2>Ruang Tumbuh untuk Kreator Muda Indonesia</h2>
         <p>
-          Program ini mengadaptasi semangat Mahreen Indonesia sebagai ruang
-          pengembangan kreatif, digital, dan sosial agar peserta dapat belajar
-          berpikir, berkomunikasi, berkolaborasi, dan membuat karya nyata.
+          Program ini membantu generasi muda mengembangkan ide, memanfaatkan
+          teknologi, dan menyusun karya yang memiliki manfaat nyata bagi
+          masyarakat.
         </p>
       </div>
 

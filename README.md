@@ -1,10 +1,10 @@
 # Berkarya untuk Indonesia | Mahreen Indonesia
 
-Landing page ini dibuat sebagai project test kompetensi Web Developer Intern untuk Mahreen Indonesia. Website mengangkat tema **Berkarya untuk Indonesia** dengan pendekatan visual yang disesuaikan dengan karakter Mahreen Indonesia: gelap, modern, profesional, serta berfokus pada kreativitas, digital, dan dampak sosial.
+Landing page ini dibuat sebagai project test kompetensi Web Developer Intern untuk Mahreen Indonesia. Website mengangkat tema **Berkarya untuk Indonesia** dan ditujukan untuk mengajak generasi muda Indonesia memanfaatkan kreativitas serta teknologi untuk memberikan dampak positif bagi masyarakat.
 
 ## Konsep
 
-Website ini dirancang sebagai halaman ajakan untuk generasi muda Indonesia agar berani mengembangkan ide, membuat karya digital, dan memberikan kontribusi positif untuk masyarakat. Secara visual, landing page menggunakan dark theme dengan aksen merah dan gold agar terasa lebih dekat dengan identitas Mahreen Indonesia.
+Website ini dirancang sebagai halaman ajakan untuk generasi muda Indonesia agar berani mengembangkan ide, membuat karya digital, dan memberikan kontribusi positif untuk masyarakat. Secara visual, landing page menggunakan dark theme dengan aksen merah dan gold agar tetap memiliki nuansa Mahreen Indonesia tanpa menggeser tema utama.
 
 Struktur halaman tetap mengikuti kebutuhan tugas:
 
@@ -17,7 +17,8 @@ Selain itu, halaman juga dilengkapi bagian langkah berkarya dan modal form parti
 ## Fitur Utama
 
 - Hero section dengan pesan utama "Berkarya untuk Indonesia".
-- Branding visual Mahreen Indonesia melalui dark theme, aksen merah-gold, dan copywriting creative-digital-social.
+- Copywriting yang menekankan generasi muda, kreativitas, teknologi, dan dampak positif bagi masyarakat.
+- Branding visual Mahreen Indonesia melalui dark theme dan aksen merah-gold.
 - Navigasi anchor ke bagian Beranda, Program, Langkah, dan Aksi.
 - Section program interaktif:
   - Creative Lab

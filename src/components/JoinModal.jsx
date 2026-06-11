@@ -118,10 +118,11 @@ function JoinModal({ isOpen, onClose }) {
         {!isSubmitted ? (
           <>
             <p className="section-label">Form Partisipasi</p>
-            <h2 id="join-modal-title">Mulai Berkarya Bersama Mahreen</h2>
+            <h2 id="join-modal-title">Mulai Berkarya untuk Indonesia</h2>
             <p className="modal-description">
               Isi data singkat berikut untuk menunjukkan minat kamu dalam
-              program Berkarya untuk Indonesia bersama Mahreen Indonesia.
+              mengembangkan karya kreatif dan digital yang bermanfaat bagi
+              masyarakat.
             </p>
 
             {error && <p className="form-error">{error}</p>}

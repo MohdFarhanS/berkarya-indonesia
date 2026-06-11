@@ -2,17 +2,17 @@ function HeroSection({ onOpenModal }) {
   return (
     <section className="hero-section" id="home">
       <div className="hero-content">
-        <p className="hero-badge">Next Generation Brand Ecosystem</p>
+        <p className="hero-badge">Gerakan Kreatif Generasi Muda</p>
 
         <h1>
           Berkarya untuk Indonesia
-          <span>Lewat Kreativitas, Digital, dan Dampak Sosial</span>
+          <span>Lewat Kreativitas dan Teknologi</span>
         </h1>
 
         <p className="hero-description">
-          Mahreen Indonesia mengajak generasi muda mengubah ide menjadi karya
-          kreatif, solusi digital, dan kontribusi sosial yang modern,
-          profesional, serta bermanfaat untuk masa depan Indonesia.
+          Landing page ini mengajak generasi muda Indonesia memanfaatkan
+          kreativitas dan teknologi untuk menciptakan karya yang berdampak
+          positif bagi masyarakat.
         </p>
 
         <div className="hero-actions">
@@ -27,16 +27,16 @@ function HeroSection({ onOpenModal }) {
 
         <div className="hero-stats">
           <div>
-            <strong>04</strong>
-            <span>Pilar Mahreen</span>
+            <strong>01</strong>
+            <span>Ide Bermakna</span>
           </div>
           <div>
             <strong>03</strong>
-            <span>Fokus Karya</span>
+            <span>Ruang Berkarya</span>
           </div>
           <div>
-            <strong>01</strong>
-            <span>Dampak Negeri</span>
+            <strong>+</strong>
+            <span>Dampak Sosial</span>
           </div>
         </div>
       </div>
@@ -48,17 +48,17 @@ function HeroSection({ onOpenModal }) {
         <div className="visual-card main-card">
           <span className="card-icon">MI</span>
           <p className="card-eyebrow">Creative &bull; Digital &bull; Social</p>
-          <h3>Ekosistem Anak Muda untuk Membuat Karya Bermakna</h3>
+          <h3>Kreativitas dan Teknologi untuk Masyarakat</h3>
           <p>
-            Dari branding, teknologi, sampai aksi sosial, setiap ide diarahkan
-            menjadi karya yang relevan dan berdampak.
+            Setiap ide dapat berkembang menjadi solusi digital, konten edukatif,
+            atau gerakan sosial yang relevan dengan kebutuhan sekitar.
           </p>
 
-          <div className="brand-pills" aria-label="Pilar Mahreen Indonesia">
-            <span>Studio</span>
-            <span>Tanya</span>
-            <span>Peduli</span>
-            <span>CSR</span>
+          <div className="brand-pills" aria-label="Fokus program">
+            <span>Kreatif</span>
+            <span>Digital</span>
+            <span>Kolaboratif</span>
+            <span>Berdampak</span>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ function HeroSection({ onOpenModal }) {
 
         <div className="visual-card small-card bottom-card">
           <span>MI</span>
-          <p>Modern & berdampak</p>
+          <p>Untuk masyarakat</p>
         </div>
       </div>
     </section>
