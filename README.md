@@ -1,20 +1,33 @@
 # Berkarya untuk Indonesia | Mahreen Indonesia
 
-Berkarya untuk Indonesia adalah website landing page bertema gerakan anak muda untuk mengembangkan ide, membuat karya, dan memanfaatkan teknologi bagi Indonesia. Website ini dibuat dengan React dan Vite, dengan tampilan responsif bernuansa gelap yang disesuaikan dengan karakter Mahreen Indonesia sebagai ekosistem kreatif, digital, dan sosial.
+Landing page ini dibuat sebagai project test kompetensi Web Developer Intern untuk Mahreen Indonesia. Website mengangkat tema **Berkarya untuk Indonesia** dengan pendekatan visual yang disesuaikan dengan karakter Mahreen Indonesia: gelap, modern, profesional, serta berfokus pada kreativitas, digital, dan dampak sosial.
 
-## Fitur
+## Konsep
 
-- Hero section dengan nuansa Mahreen Indonesia dan ajakan utama untuk melihat program atau mulai berkarya.
+Website ini dirancang sebagai halaman ajakan untuk generasi muda Indonesia agar berani mengembangkan ide, membuat karya digital, dan memberikan kontribusi positif untuk masyarakat. Secara visual, landing page menggunakan dark theme dengan aksen merah dan gold agar terasa lebih dekat dengan identitas Mahreen Indonesia.
+
+Struktur halaman tetap mengikuti kebutuhan tugas:
+
+- Hero Section
+- Tentang Program
+- Call To Action
+
+Selain itu, halaman juga dilengkapi bagian langkah berkarya dan modal form partisipasi untuk menambah interaksi.
+
+## Fitur Utama
+
+- Hero section dengan pesan utama "Berkarya untuk Indonesia".
+- Branding visual Mahreen Indonesia melalui dark theme, aksen merah-gold, dan copywriting creative-digital-social.
 - Navigasi anchor ke bagian Beranda, Program, Langkah, dan Aksi.
-- Daftar program interaktif:
+- Section program interaktif:
   - Creative Lab
   - Digital Solution
   - Social Impact
-- Tombol "Lihat Detail" untuk membuka informasi tambahan tiap program.
-- Section langkah berkarya dari ide hingga dampak.
+- Tombol "Lihat Detail" untuk membuka informasi tambahan setiap program.
+- Section langkah berkarya dari insight, solusi, sampai publikasi dampak.
 - CTA "Mulai Berkarya" yang membuka modal partisipasi.
-- Form modal dengan validasi sederhana untuk nama, email, dan minat program.
-- Penyimpanan data pendaftaran sementara di browser menggunakan `localStorage`.
+- Form partisipasi dengan validasi sederhana.
+- Penyimpanan data form sementara di browser menggunakan `localStorage`.
 - Layout responsif untuk desktop, tablet, dan mobile.
 
 ## Teknologi
@@ -67,6 +80,12 @@ npm install
 npm run dev
 ```
 
+Jika menggunakan PowerShell dan `npm` terkena pembatasan execution policy, gunakan:
+
+```bash
+npm.cmd run dev
+```
+
 3. Buka URL yang muncul di terminal, biasanya:
 
 ```text
@@ -101,7 +120,7 @@ Memeriksa kode dengan ESLint.
 
 ## Catatan Data Form
 
-Form partisipasi pada modal belum terhubung ke backend. Saat pengguna mengirim data, aplikasi menyimpannya sementara di browser dengan key:
+Form partisipasi pada modal belum terhubung ke backend. Saat pengguna mengirim data, aplikasi menyimpannya sementara di browser menggunakan key:
 
 ```text
 berkaryaIndonesiaRegistration
@@ -112,8 +131,9 @@ Data ini akan tetap berada di browser pengguna selama `localStorage` belum diber
 ## Pengembangan Konten
 
 - Data program dapat diubah melalui `src/data/programs.js`.
-- Teks dan struktur utama halaman berada di komponen dalam folder `src/components`.
-- Styling global dan responsive layout berada di `src/App.css`.
+- Teks dan struktur utama halaman berada di folder `src/components`.
+- Styling global, dark theme, dan responsive layout berada di `src/App.css`.
+- Judul halaman dapat diubah melalui `index.html`.
 
 ## Build Production
 
