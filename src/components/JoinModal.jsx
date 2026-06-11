@@ -112,16 +112,16 @@ function JoinModal({ isOpen, onClose }) {
           onClick={handleClose}
           aria-label="Tutup modal"
         >
-          ×
+          x
         </button>
 
         {!isSubmitted ? (
           <>
             <p className="section-label">Form Partisipasi</p>
-            <h2 id="join-modal-title">Mulai Berkarya Bersama</h2>
+            <h2 id="join-modal-title">Mulai Berkarya Bersama Mahreen</h2>
             <p className="modal-description">
               Isi data singkat berikut untuk menunjukkan minat kamu dalam
-              program Berkarya untuk Indonesia.
+              program Berkarya untuk Indonesia bersama Mahreen Indonesia.
             </p>
 
             {error && <p className="form-error">{error}</p>}
@@ -162,13 +162,9 @@ function JoinModal({ isOpen, onClose }) {
                   required
                 >
                   <option value="">Pilih program</option>
-                  <option value="Ruang Kreativitas">Ruang Kreativitas</option>
-                  <option value="Teknologi untuk Negeri">
-                    Teknologi untuk Negeri
-                  </option>
-                  <option value="Kolaborasi Anak Muda">
-                    Kolaborasi Anak Muda
-                  </option>
+                  <option value="Creative Lab">Creative Lab</option>
+                  <option value="Digital Solution">Digital Solution</option>
+                  <option value="Social Impact">Social Impact</option>
                 </select>
               </label>
 
@@ -189,7 +185,7 @@ function JoinModal({ isOpen, onClose }) {
           </>
         ) : (
           <div className="success-message">
-            <div className="success-icon">✅</div>
+            <div className="success-icon">OK</div>
             <h2 id="join-modal-title">Data Berhasil Disimpan</h2>
             <p>
               Terima kasih, {form.name}. Data minat kamu sudah tersimpan

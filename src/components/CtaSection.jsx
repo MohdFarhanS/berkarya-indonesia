@@ -4,16 +4,16 @@ function CtaSection({ onOpenModal }) {
       <div className="cta-card">
         <div>
           <p className="section-label">Call To Action</p>
-          <h2>Mulai dari Satu Ide, Wujudkan untuk Indonesia</h2>
+          <h2>Bangun Karya yang Modern, Profesional, dan Bermanfaat</h2>
           <p>
-            Jangan menunggu sempurna untuk memulai. Gunakan kreativitas,
-            teknologi, dan semangat kolaborasi untuk menciptakan karya yang
-            bermanfaat.
+            Jadikan kreativitas dan teknologi sebagai langkah awal untuk
+            bertumbuh bersama ekosistem Mahreen Indonesia dan memberi dampak
+            nyata untuk masyarakat.
           </p>
         </div>
 
         <button type="button" className="btn btn-light" onClick={onOpenModal}>
-          Gabung Sekarang
+          Mulai Berkarya
         </button>
       </div>
     </section>
